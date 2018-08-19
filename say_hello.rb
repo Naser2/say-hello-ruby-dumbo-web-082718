@@ -1,6 +1,8 @@
 # Build your say_hello method here
 
-def say_hello( arg = "Hello!", name)
-return "#{hello }" + "#{name}"
+def say_hello( name=" Ruby Programmer", arg="Hello ")
+# name ="Ruby Programmer"
+puts "#{arg}"  + name + "!"
 end
-puts say_hello("Gabriela")
+
+ say_hello()
